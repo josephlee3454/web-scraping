@@ -20,7 +20,7 @@ def get_citations_needed_count():
   new_list.append(citation_content)
   number_of_occurences = len(citation_content)
   # print(citation_content)
-
+  return new_list
 def get_citations_needed_report():
   citation_content_1 = new_list[0][0]
   print("first cite" + citation_content_1.text.strip())
